@@ -1,7 +1,6 @@
 # fform_validator
 
 - [fform_validator](#fform_validator)
-  - [Introduction](#introduction)
   - [Features](#features)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -31,20 +30,11 @@
 
 ## Installation
 
-Add `fform_validator` to your `pubspec.yaml` file:
-
-```yaml
-dependencies:
-  fform_validator:
-    git:
-      url: git://github.com/yourusername/fform_validator.git
-      ref: main
-```
-
-Then, run the following command:
+run the following command:
 
 ```bash
-flutter pub get
+flutter pub add fform_validator
+
 ```
 
 ## Usage
