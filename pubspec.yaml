@@ -1,7 +1,8 @@
 name: fform_validator
 description: fform_validator is a Flutter package that helps you to validate your form fields (optional).
-version: 1.0.0
-repository: https://github.com/my_org/my_repo
+version: 1.0.1
+repository: https://github.com/AlexHCJP/fform_validator
+publish_to: https://github.com/AlexHCJP/fform_validator
 
 environment:
   sdk: ^3.4.4

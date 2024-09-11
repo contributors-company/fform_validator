@@ -1,18 +1,17 @@
 # fform_validator
 
-- [fform_validator](#fform_validator)
-  - [Features](#features)
-  - [Installation](#installation)
-  - [Usage](#usage)
-    - [Example](#example)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Example](#example)
     - [Methods](#methods)
     - [Example of Validating a Credit Card](#example-of-validating-a-credit-card)
     - [Example of Validating an IP Address](#example-of-validating-an-ip-address)
     - [Recommendation for use with the `fform` package](#recommendation-for-use-with-the-fform-package)
     - [Example of a Custom Password Field](#example-of-a-custom-password-field)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Contact](#contact)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 `FFormValidator` is a simple and lightweight Dart package for validating form inputs such as emails, URLs, IP addresses, credit card numbers, and more. It provides convenient validation methods to ensure your form data meets specific criteria without writing complex validation logic from scratch.
 
@@ -111,7 +110,7 @@ To create custom input fields with flexible validation, it is recommended to use
 import 'package:fform/fform.dart';
 import 'package:fform_validator/fform_validator.dart';
 
-class PasswordValidationException {
+class PasswordValidationException extends FFormException {
   final bool isMinLengthValid;
   final bool isSpecialCharValid;
   final bool isNumberValid;
